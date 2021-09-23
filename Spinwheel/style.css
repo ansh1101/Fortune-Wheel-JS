@@ -1,0 +1,43 @@
+ body{
+   background-image: url(https://ak.picdn.net/shutterstock/videos/5585243/thumb/1.jpg);
+ }
+ #container {
+    width:500px;
+    height: 500px;
+    margin: 0 auto;
+    position: relative;
+  }
+  
+  .marker {
+    position: absolute;
+    width: 60px;
+    left: 220px;
+    top: 190px;
+    transform: rotate(180deg);
+  }
+
+  
+  .wheel {
+    width: 100%;
+    height: 100%;
+  }
+  
+  .button {
+    display: block;
+    width: 252px;
+    margin: 39px auto;
+    cursor: pointer;
+  }
+  
+  .button:hover {
+    opacity: 0.8;
+    filter:contrast(10);
+    
+  }
+  
+  
+  
+ 
+
+
+  
