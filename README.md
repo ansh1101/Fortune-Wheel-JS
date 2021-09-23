@@ -1,1 +1,1 @@
-https://github.com/ansh1101/Fortune-Wheel-JS
+hhttps://ansh1101.github.io/Fortune-Wheel-JS
