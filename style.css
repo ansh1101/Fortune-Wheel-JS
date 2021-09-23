@@ -25,11 +25,28 @@
     height: 100%;
   }
   
+   @keyframes glowing {
+    0% {
+
+      box-shadow: 0 0 20px #bff727;
+    }
+    50% {
+    
+      box-shadow: 0 0 200px #d2df1e;
+    }
+    100% {
+    
+      box-shadow: 0 0 10px #99eb16;
+    }
+  }
+  
   .button {
     display: block;
     width: 252px;
     margin: 39px auto;
     cursor: pointer;
+    animation: glowing 500ms infinite;
+
   }
   
   .button:hover {
