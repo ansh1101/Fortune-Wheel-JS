@@ -1,1 +1,1 @@
-https://ansh1101.github.io/Fortune-Wheel-JS
+WEB APP - https://ansh1101.github.io/Fortune-Wheel-JS
