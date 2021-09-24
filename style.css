@@ -28,11 +28,11 @@
    @keyframes glowing {
     0% {
 
-      box-shadow: 0 0 15px #bff727;
+      box-shadow: 0 0 5px #bff727;
     }
     50% {
     
-      box-shadow: 0 0 100px #d2df1e;
+      box-shadow: 0 0 20px #d2df1e;
     }
     100% {
     
@@ -45,7 +45,7 @@
     width: 252px;
     margin: 39px auto;
     cursor: pointer;
-    animation: glowing 500ms infinite;
+    animation: glowing 700ms infinite;
 
   }
   
