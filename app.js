@@ -1,5 +1,4 @@
-
-  import Swal from "sweetalert2";
+;
   (function() {
     var wheel = document.querySelector('.wheel');
     let marker = document.querySelector('.marker');
