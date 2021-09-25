@@ -41,7 +41,14 @@
       wheel.style.transform = `rotate(${deg}deg)`;
     });
     
-  
+  document.querySelectorAll(".button").addEventListener("click" , function(){
+
+        const audio = new Audio("fortune-wheel-2.mp3");
+    audio.play();
+
+});
+}
+
     wheel.addEventListener('transitionend', () => {
   
 
