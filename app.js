@@ -36,18 +36,12 @@
     startButton.addEventListener('click', () => {
       startButton.style.pointerEvents = 'none';
       deg = Math.floor(3000 + Math.random() * 5000);
-
       wheel.style.transition = 'all 10s ease-out';
       wheel.style.transform = `rotate(${deg}deg)`;
-    });
-    
-  document.querySelectorAll(".button").addEventListener("click" , function(){
-
-        const audio = new Audio("fortune-wheel-2.mp3");
+         const audio = new Audio("fortune-wheel-2.mp3");
     audio.play();
+    });
 
-});
-}
 
     wheel.addEventListener('transitionend', () => {
   
