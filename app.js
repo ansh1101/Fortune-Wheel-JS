@@ -49,6 +49,8 @@
       startButton.style.pointerEvents = 'auto';
       wheel.style.transition = 'none';
       var actualDeg = deg % 360;
+       const audio = new Audio("fortune-wheel-2.mp3");
+    audio.pause();
  
       document.querySelector(".myDiv").style.visibility = "hidden";
       wheel.style.transform = `rotate(${actualDeg}deg)`;
